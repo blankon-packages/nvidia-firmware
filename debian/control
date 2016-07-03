@@ -1,0 +1,12 @@
+Source: nvidia-firmware
+Section: misc
+Priority: optional
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.4
+
+Package: nvidia-firmware
+Architecture: any
+Depends: ${misc:Depends}
+Description: Nvidia firmware videoaccelarator
+ Nvidia firmware videoaccelarator.
